@@ -21,4 +21,9 @@ public class Question {
         playerAnswer = -1;
     }
 
+    // Add isCorrect() here
+    boolean isCorrect() {
+        return correctAnswer == playerAnswer;
+    }
+
 }
